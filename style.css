@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+}
+/*banner inicial*/
+#bannerInicial{
+    background-color: #303030;
+    color: #FFFFFF;    
+    padding: 200px 0px 150px 62px;
+}
+
+#bannerInicial h1{
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: -0.025em;
+    margin-bottom: 20px;
+}
+#bannerInicial p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+/*Feitos*/
+#feitos{
+    background-color: #F9F9F9;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    padding: 70px 0px 70px 0px;
+}
+.numero{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 28px; /* 70% */
+}
+
+/*Quem somos*/
+#quemSomos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px 30px;
+
+}
+#texto{
+    width: 720px;
+}
+#texto h2{
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 50% */
+    margin-bottom: 50px;
+}
+#texto p{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: justify;
+}
+
+/*Contactar*/
+#contactar{
+    background-color: #303030;
+    padding:90px 0px 30px 0px;
+
+
+}
+#contactar h2{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 48px */
+    margin-bottom: 50px;
+}
+form{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contactar form input{
+    padding: 20px 0px 20px 30px;
+    color: rgb(0, 0, 0);    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px; /* 125% */
+    width: 490px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 60px;
+}
+#botao{
+    width: 286px;
+    height: 74px;
+    background-color: #C07212;
+    color: rgb(255, 255, 255); 
+    font-family: Raleway;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px; /* 100% */
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 60px;
+}
